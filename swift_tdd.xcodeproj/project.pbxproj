@@ -36,6 +36,10 @@
 		CE5EBE762930F61300B82B7B /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EBE752930F61300B82B7B /* SignUpPresenter.swift */; };
 		CE5EBE792930F6B700B82B7B /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EBE782930F6B700B82B7B /* AlertView.swift */; };
 		CE5EBE7D2930FA4900B82B7B /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EBE7C2930FA4900B82B7B /* EmailValidator.swift */; };
+		CE5EBE802931331400B82B7B /* AuthenticationSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EBE7F2931331400B82B7B /* AuthenticationSpy.swift */; };
+		CE5EBE822931333500B82B7B /* AddAccountSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EBE812931333500B82B7B /* AddAccountSpy.swift */; };
+		CE5EBE852931339E00B82B7B /* TestFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EBE842931339E00B82B7B /* TestFactories.swift */; };
+		CE5EBE86293134B900B82B7B /* AccountModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53CE9A292D036A006BC971 /* AccountModelFactory.swift */; };
 		CE67E7D2292E74F60030EEC3 /* UrlProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67E7D1292E74F60030EEC3 /* UrlProtocolStub.swift */; };
 		CE67E7D4292E9C540030EEC3 /* AlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67E7D3292E9C540030EEC3 /* AlamofireAdapter.swift */; };
 		CE745EC52927F54400EB89AC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE745EC42927F54400EB89AC /* Model.swift */; };
@@ -154,6 +158,9 @@
 		CE5EBE752930F61300B82B7B /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
 		CE5EBE782930F6B700B82B7B /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		CE5EBE7C2930FA4900B82B7B /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		CE5EBE7F2931331400B82B7B /* AuthenticationSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSpy.swift; sourceTree = "<group>"; };
+		CE5EBE812931333500B82B7B /* AddAccountSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountSpy.swift; sourceTree = "<group>"; };
+		CE5EBE842931339E00B82B7B /* TestFactories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactories.swift; sourceTree = "<group>"; };
 		CE67E7D1292E74F60030EEC3 /* UrlProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolStub.swift; sourceTree = "<group>"; };
 		CE67E7D3292E9C540030EEC3 /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
 		CE745EC42927F54400EB89AC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -370,6 +377,8 @@
 		CE5EBE6B2930E13000B82B7B /* PresentationTests */ = {
 			isa = PBXGroup;
 			children = (
+				CE5EBE832931338300B82B7B /* Helpers */,
+				CE5EBE7E293132FD00B82B7B /* UseCases */,
 				CE5EBE6C2930E13000B82B7B /* SignUpPresenterTests.swift */,
 			);
 			path = PresentationTests;
@@ -397,6 +406,23 @@
 				CE5EBE7C2930FA4900B82B7B /* EmailValidator.swift */,
 			);
 			path = Validators;
+			sourceTree = "<group>";
+		};
+		CE5EBE7E293132FD00B82B7B /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EBE7F2931331400B82B7B /* AuthenticationSpy.swift */,
+				CE5EBE812931333500B82B7B /* AddAccountSpy.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		CE5EBE832931338300B82B7B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EBE842931339E00B82B7B /* TestFactories.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		CE67E7D5292E9CF80030EEC3 /* Http */ = {
@@ -839,6 +865,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5EBE822931333500B82B7B /* AddAccountSpy.swift in Sources */,
+				CE5EBE802931331400B82B7B /* AuthenticationSpy.swift in Sources */,
+				CE5EBE852931339E00B82B7B /* TestFactories.swift in Sources */,
+				CE5EBE86293134B900B82B7B /* AccountModelFactory.swift in Sources */,
 				CE5EBE6D2930E13000B82B7B /* SignUpPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
