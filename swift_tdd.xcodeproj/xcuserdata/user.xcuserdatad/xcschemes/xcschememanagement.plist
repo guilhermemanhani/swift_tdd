@@ -4,10 +4,73 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>swift_tdd.xcscheme_^#shared#^_</key>
+		<key>CI.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Data.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Domain.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Infra.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Presentation.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Presetation.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>UseCasesIntegrationTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CE46E0582922B68A007E5474</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE46E0772922B76F007E5474</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE46E0892922B97C007E5474</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE46E0922922B97C007E5474</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE53CEA0292D4F24006BC971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE53CEA7292D4F24006BC971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
